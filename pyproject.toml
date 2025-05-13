@@ -1,0 +1,18 @@
+[project]
+name = "golf"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.3",
+    "numpy>=2.2.5",
+    "pandas>=2.2.3",
+    "scipy>=1.15.3",
+]
+
+[dependency-groups]
+dev = [
+    "ipympl>=0.9.7",
+    "jupyterlab>=4.4.2",
+]
